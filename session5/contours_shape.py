@@ -32,8 +32,8 @@ def getContours(img):
             else:
                 objectType = "None"
             cv2.rectangle(img_contours, (x,y), (x+w, y+h), (0,255,0), 3)
-            cv2.putText(img_contours, objectType, (x+(w//2)-10, y+(h//2)-10),cv2.FONT_HERSHEY_COMPLEX, 1, (255,144,0), 2)
-            
+            cv2.putText(img_contours, objectType, (x+(w//2)-10, y+(h//2)-10),cv2.FONT_HERSHEY_COMPLEX, 0.5, (255,144,0), 2)
+
 
 img = cv2.imread("Resources/shapes.png")
 img_contours = img.copy()
