@@ -1,3 +1,5 @@
+imutils
+scipy
 opencv-python
 pandas
 flask

@@ -127,6 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-session5/yolov3/*
-CollectedImages/*
-Resources/shape_predictor_68_face_landmarks.dat
+Data/IMG/
+simulator-windows-64/Default Windows desktop 64-bit_Data/
+
